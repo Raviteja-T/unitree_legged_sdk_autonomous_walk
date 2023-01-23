@@ -36,10 +36,10 @@ if __name__ == '__main__':
         cmd.reserve = 0
         
         if(motiontime > 0 and motiontime < 2000):
-        cmd.mode = 2
-        cmd.gaitType = 4
-        cmd.velocity = [0.5, 0]
-        print("step1", end='\r')
+            cmd.mode = 2
+            cmd.gaitType = 4
+            cmd.velocity = [0.5, 0]
+            print("step1", end='\r')
             
         if(motiontime > 2500 and motiontime < 3500):
             cmd.mode = 2
